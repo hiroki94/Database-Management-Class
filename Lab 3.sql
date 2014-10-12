@@ -15,7 +15,7 @@ from orders;
 --List the names and cities of customers in Duluth
 select name, city
 from customers
-where city = 'Duluth’;
+where city = 'Duluth';
 
 --List the names of agents not in New York and not in London
 select name, city
