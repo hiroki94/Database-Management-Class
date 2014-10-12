@@ -20,7 +20,7 @@ where city = 'Duluth’;
 --List the names of agents not in New York and not in London
 select name, city
 from agents
-where city != 'New York' and city != 'London’;
+where city != 'New York' and city != 'London';
 
 --List all data for products not in Dallas or Duluth that cost US$1 or less
 select *
